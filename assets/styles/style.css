@@ -578,3 +578,27 @@ color: blueviolet;
    .mobileNav{
       margin-left: 30px;}
 }
+@media(max-width:440px){
+   .mobileNav{
+      margin-left: 0px;
+   }
+}
+@media(max-width:415px){
+   .mobileNav a{
+     font-size: 25px;
+   }
+   .form-control.me-2{
+      width: 150px;
+   }
+   .img1{
+      height: 300px;
+   }
+   .violet3{
+      margin-right: 40px;
+   }
+}
+@media(max-width:375px){
+   .violet3{
+      margin-right: 0px;
+   }
+}
