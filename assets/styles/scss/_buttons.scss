@@ -1,0 +1,35 @@
+.btn.btn-primary {
+    border-radius: 10px;
+    text-align: center;
+    background-color: black;
+    border-style: none;
+  
+    &:hover {
+      background-color: blueviolet;
+    }
+  
+    &.blue:hover {
+      background-color: aqua;
+    }
+  
+    &.red:hover {
+      background-color: red;
+    }
+  
+    &.white:hover {
+      background-color: gray;
+    }
+  
+    &.orangered:hover {
+      background-color: orangered;
+    }
+  
+    &.orange:hover {
+      background-color: orange;
+    }
+  
+    &.multicolor:hover {
+      background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    }
+  }
+  

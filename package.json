@@ -1,0 +1,25 @@
+{
+  "name": "preentrega-proyecto",
+  "version": "1.0.0",
+  "description": "Preentrega para coderhouse",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nachoamoroso24/SegundaPreEntrega.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "html",
+    "styles"
+  ],
+  "author": "Nacho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nachoamoroso24/SegundaPreEntrega/issues"
+  },
+  "homepage": "https://github.com/nachoamoroso24/SegundaPreEntrega#readme"
+}

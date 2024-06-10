@@ -1,0 +1,100 @@
+.nav-link {
+    &.violet3 {
+      &:hover {
+        color: violet;
+        transition: all .5s;
+      }
+  
+      font-size: 20px;
+      color: blueviolet;
+  
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 5px;
+        width: 83px;
+        height: 3px;
+        background-color: blueviolet;
+        transition: all .5s;
+      }
+    }
+  
+    &.violet2 {
+      &:hover {
+        color: violet;
+        transition: all .5s;
+      }
+  
+      font-size: 20px;
+      color: blueviolet;
+  
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 5px;
+        width: 70px;
+        height: 3px;
+        background-color: blueviolet;
+        transition: all .5s;
+      }
+    }
+  
+    &.violet1 {
+      &:hover {
+        color: violet;
+        transition: all .5s;
+      }
+  
+      font-size: 20px;
+      color: blueviolet;
+  
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 5px;
+        width: 95px;
+        height: 3px;
+        background-color: blueviolet;
+        transition: all .5s;
+      }
+    }
+  
+    &.violet {
+      font-size: 20px;
+      color: blueviolet;
+  
+      &::before {
+        content: '';
+        position: absolute;
+        left: -10;
+        bottom: 5px;
+        width: 90px;
+        height: 3px;
+        background-color: blueviolet;
+        transition: all .5s;
+      }
+  
+      &:hover {
+        color: violet;
+        transition: all .5s;
+  
+        &::before {
+          background-color: violet;
+        }
+      }
+    }
+  
+    &.violet1:hover::before, &.violet2:hover::before {
+      background-color: violet;
+    }
+  
+    &.font {
+      font-size: 20px;
+  
+      &:hover {
+        color: blueviolet;
+        transition: all .5s;
+      }
+    }
+  }
+  
