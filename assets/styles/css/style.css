@@ -267,6 +267,15 @@ section {
   }
 }
 @media (max-width: 991px) {
+  .about-title {
+    font-size: 2rem;
+  }
+  .about-text {
+    font-size: 1rem;
+  }
+  .noflex {
+    flex-direction: column;
+  }
   .card.violet {
     width: 13rem;
   }
