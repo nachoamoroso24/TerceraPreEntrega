@@ -24,7 +24,7 @@
       );
       background-size: 400%;
       z-index:-1;
-      animation: shadow 30s linear infinite;
+      animation: shadow 24s linear infinite;
     }
     
     &:after {
@@ -34,8 +34,10 @@
       height:calc(100% + 16px);    
       filter:blur(24px);
       opacity:0.9;
-    }
-    
+    }    
+  }
+  .card-body{
+    background-color: white;
   }
   .card-title, .card-text {
     text-align: center;
@@ -43,6 +45,7 @@
   
   .card.block.shadow {
     width: 22rem;
+    nav-index: 1;
   }
   
   .block {
@@ -83,8 +86,8 @@
      }
   }
   .card:hover{
-    scale: (1.05);
-    transition: all 0.5s;
+    scale: (1.025);
+    transition: all 0.2s;
   }
 
   

@@ -14,11 +14,19 @@
 }
 @media (max-width:991px){
   .about-title{
-  font-size: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
   }
   .about-text{
-    font-size: 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+    color: black;
+    font-family: Lato;
   }
+ .img-fluid.card.blue{
+   margin-top: 2rem;
+ }
   .noflex{
     flex-direction: column;
   }
@@ -49,10 +57,10 @@
 }
 @media (max-width: 463px){
   .card.blue{
-     width:10rem;
+     width:8.5rem;
   }
   .card.violet{
-     width: 10rem;
+     width: 8.5rem;
   }
   .card.black{
      width: 10rem;
@@ -60,6 +68,15 @@
      .card.block.shadow{
         width: 10rem;
      }
+     .card-title{
+      font-size: 11px;
+     }
+     .card-text{
+      font-size: 10px;
+     }
+     .btn.btn-primary{
+      font-size: 10px;
+   }
 }
 @media (max-width: 367px){
   .card.blue{
