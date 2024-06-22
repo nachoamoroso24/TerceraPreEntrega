@@ -1,3 +1,27 @@
+@keyframes scaleTransition{
+  from{
+    scale: 0.75;
+  }
+  to{
+    scale: 1;
+  }
+}
+@keyframes transition {
+  from{
+    opacity: 0%;
+    transform: translateY(-10px);
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 100%;
+    transform: translateY(0);
+    transform: translateX(0);
+  }
+}
+.container.nosotros{
+  animation: transition 1s;
+}
+
 section {
     justify-content: center;
     align-items: center;
@@ -6,18 +30,26 @@ section {
   .image-us {
     width: auto;
   }
-  
-  .about-title {
+  .about-title{
+    font-size: 5rem;
     color: blueviolet;
-    margin-top: 100px;
-    font-size: 4rem;
+    margin-bottom: 5rem;
   }
-  
+
   .about-text {
-    color: gray;
-    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
   }
   .img-fluid.card.blue{
     margin-top: 2rem;
   }
-  
+  .buttom-image{
+    margin-top: 10rem;
+  }
+.scale:hover{
+  scale: (1.020);
+  transition: 1s;
+}
+.scale{
+  animation: scaleTransition 0.75s;
+}

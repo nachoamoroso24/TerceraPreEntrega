@@ -1,3 +1,6 @@
+.navbar.navbar-expand-lg.navbar-light{
+  background-color: $greyindex;
+}
 .nav-link {
     &.violet3 {
       &:hover {
@@ -66,7 +69,6 @@
       &::before {
         content: '';
         position: absolute;
-        left: -10;
         bottom: 5px;
         width: 90px;
         height: 3px;

@@ -1,5 +1,4 @@
 
-
  /* Sacado de https://codepen.io/fronthendrik/pen/RYOVzP */
 .shadow {
     &:before, &:after {
@@ -43,11 +42,6 @@
     text-align: center;
   }
   
-  .card.block.shadow {
-    width: 22rem;
-    nav-index: 1;
-  }
-  
   .block {
     position: relative;
     width: 25vw;
@@ -71,12 +65,12 @@
   .card {
     &.black {
       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-      width: 22rem;
+      width: 17rem;
       height: auto;
     }
   
     &.blue {
-      width: 25rem;
+      width: 20rem;
       box-shadow: -2px -2px 15px 2px rgb(0, 255, 191), 2px 2px 15px 2px blue;
     }
   
@@ -88,6 +82,26 @@
   .card:hover{
     scale: (1.025);
     transition: all 0.2s;
+  }
+  .card.black{
+ &.violetc{
+  box-shadow: rgba(225, 0, 255, 0.87) 0px 4px 6px -1px, rgb(235, 0, 129) 0px 2px 4px -1px;
+ }
+ &.bluec{
+  box-shadow: rgba(17, 0, 255, 0.87) 0px 4px 6px -1px, rgb(0, 132, 255) 0px 2px 4px -1px
+ }
+ &.aqua{
+  box-shadow: rgba(0, 238, 255, 0.87) 0px 4px 6px -1px, rgb(0, 94, 235) 0px 2px 4px -1px;
+ }
+ &.grey{
+  box-shadow: rgba(99, 97, 98, 0.87) 0px 4px 6px -1px, rgb(27, 27, 27) 0px 2px 4px -1px;
+ }
+ &.orange{
+  box-shadow: rgba(255, 136, 0, 0.87) 0px 4px 6px -1px, rgb(61, 42, 1) 0px 2px 4px -1px;
+ }
+ &.red{
+  box-shadow: rgba(255, 17, 0, 0.87) 0px 4px 6px -1px, rgb(165, 30, 12) 0px 2px 4px -1px;
+ }
   }
 
   
