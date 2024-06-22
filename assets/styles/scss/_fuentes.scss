@@ -1,12 +1,8 @@
 @font-face {
-    font-family: Lato;
-    src: url(../../fonts/Lato/Lato-Light.ttf);
     font-family: Inter;
     src: url(../../fonts/Inter/Inter-Bold.ttf);
     font-family: InterLight;
     src: url(../../fonts/Inter/Inter-Light.ttf);
-    font-family: InterBold;
-    src: url(../../fonts/Inter/Inter-ExtraBold.ttf);
     font-family: Dosis;
     src: url(../../fonts/Dosis/Dosis-Light.ttf);
   }
@@ -17,12 +13,5 @@
   }
   
   .about-title {
-    font-family: InterBold, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: InterLight, Dosis 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  .about-text{
-    font-family: Dosis;
-  }
-  .about-title2 {
-    font-family: InterBold, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  
