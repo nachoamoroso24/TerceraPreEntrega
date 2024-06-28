@@ -21,8 +21,11 @@
     margin-top: 2rem;
     margin-bottom: 1rem;
      text-align: center;
-     color: black;
+     color: $black;
   
+   }
+   .responsiveCenter{
+    text-align: center;
    }
  
    .img-fluid.card.blue {

@@ -36,7 +36,7 @@
     }    
   }
   .card-body{
-    background-color: white;
+    background-color: $white;
   }
   .card-title, .card-text {
     text-align: center;
@@ -76,7 +76,7 @@
   
     &.violet {
       width: 22rem;
-      box-shadow: blueviolet -2px 2px, rgba(240, 46, 170, 0.3) -5px 5px, rgba(240, 46, 170, 0.2) -7px 7px, rgba(240, 46, 170, 0.1) -10px 10px, rgba(240, 46, 170, 0.05) -12px 12px;
+      box-shadow: $primaryViolet -2px 2px, rgba(240, 46, 170, 0.3) -5px 5px, rgba(240, 46, 170, 0.2) -7px 7px, rgba(240, 46, 170, 0.1) -10px 10px, rgba(240, 46, 170, 0.05) -12px 12px;
      }
   }
   .card:hover{
