@@ -414,7 +414,7 @@ section {
     font-size: 30px;
   }
 }
-@media (max-width: 367px) {
+@media (max-width: 378px) {
   .card.blue, .card.violet, .card.black, .card.block.shadow {
     width: 8.5rem;
   }
