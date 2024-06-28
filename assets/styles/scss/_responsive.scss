@@ -22,7 +22,7 @@
     margin-bottom: 1rem;
      text-align: center;
      color: black;
-     font-family: Lato;
+  
    }
  
    .img-fluid.card.blue {
@@ -48,17 +48,25 @@
     width: 100%;
     max-width: 100%;
     margin-left: 0px;
+    padding: 0;
+    height: 120;
+   }
+   .container-fluid.banner{
+    padding: 0;
    }
  }
  
  @media (max-width: 463px) {
+  .img-fluid.banner{
+    height: 200px;
+   }
    .card {
      &.blue, &.violet {
-       width: 8.5rem;
+       width: 11rem;
      }
  
      &.black, &.block.shadow {
-       width: 10rem;
+       width: 11rem;
      }
    }
  
@@ -67,16 +75,30 @@
    }
  
    .card-text, .btn.btn-primary {
-     font-size: 10px;
+     font-size: 15px;
    }
-
+   .footer-row{
+    margin: 0.5rem;
+   }
+  footer h2{
+    font-size: 15px;
+  }
+  .footer-text{
+    font-size: 10px;
+  }
+  .footer-row{
+    font-size: 30px;
+  }
  }
  
  @media (max-width: 367px) {
    .card {
      &.blue, &.violet, &.black, &.block.shadow {
-       width: 9rem;
+       width: 8.5rem;
      }
+   }
+   .footer-text{
+    font-size: 10px;
    }
  }
  
