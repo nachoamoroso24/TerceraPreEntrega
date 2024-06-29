@@ -247,7 +247,7 @@ footer {
   border-style: none;
 }
 .btn.btn-primary:hover {
-  background-color: blueviolet;
+  background-color: #8a2be2;
 }
 .btn.btn-primary.blue:hover {
   background-color: aqua;
@@ -419,10 +419,20 @@ section {
 }
 @media (max-width: 378px) {
   .card.blue, .card.violet, .card.black, .card.block.shadow {
-    width: 8.5rem;
+    width: 9.8rem;
   }
   .footer-text {
     font-size: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .card.blue, .card.violet, .card.black, .card.block.shadow {
+    width: 8rem;
+  }
+}
+@media (max-width: 360px) {
+  .card.blue, .card.violet, .card.black, .card.block.shadow {
+    width: 16rem;
   }
 }
 
