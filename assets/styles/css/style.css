@@ -417,7 +417,7 @@ section {
     font-size: 30px;
   }
 }
-@media (max-width: 378px) {
+@media (max-width: 400px) {
   .card.blue, .card.violet, .card.black, .card.block.shadow {
     width: 9.8rem;
   }
@@ -430,9 +430,9 @@ section {
     width: 8rem;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 300px) {
   .card.blue, .card.violet, .card.black, .card.block.shadow {
-    width: 16rem;
+    width: 7rem;
   }
 }
 
