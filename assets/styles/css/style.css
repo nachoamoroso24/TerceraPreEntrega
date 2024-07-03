@@ -387,52 +387,59 @@ section {
   .container-fluid.banner {
     padding: 0;
   }
+  .columnR {
+    flex-direction: column;
+    margin: 0;
+  }
+  .footer-row {
+    margin: 0;
+  }
 }
 @media (max-width: 463px) {
   .img-fluid.banner {
     height: 200px;
   }
   .card.blue, .card.violet {
-    width: 11rem;
+    width: 20rem;
+    margin-left: 10%;
   }
   .card.black, .card.block.shadow {
-    width: 11rem;
+    width: 15rem;
+    margin-left: 10%;
   }
   .card-title {
-    font-size: 11px;
+    font-size: 20px;
   }
   .card-text, .btn.btn-primary {
     font-size: 15px;
   }
-  .footer-row {
-    margin: 0.5rem;
-  }
   footer h2 {
-    font-size: 15px;
+    font-size: 30px;
   }
   .footer-text {
-    font-size: 10px;
+    font-size: 15px;
   }
   .footer-row {
-    font-size: 30px;
+    font-size: 59px;
   }
 }
 @media (max-width: 400px) {
   .card.blue, .card.violet, .card.black, .card.block.shadow {
-    width: 9.8rem;
+    width: 17rem;
   }
   .footer-text {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 361px) {
   .card.blue, .card.violet, .card.black, .card.block.shadow {
-    width: 8rem;
+    width: 13rem;
+    margin-left: 20%;
   }
 }
 @media (max-width: 300px) {
   .card.blue, .card.violet, .card.black, .card.block.shadow {
-    width: 7rem;
+    width: 12rem;
   }
 }
 
